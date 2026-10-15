@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agente IA Base</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+  <!-- Arquivo de Estilos Separado -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>🗓️Mkt Senior digital</h1>
+    <p>Seu assistente de marketing digital</p>
+  </header>
+
+  <!-- Container de Mensagens do Chat -->
+  <main id="chat-container">
+    <!-- Mensagens do usuário e do assistente aparecem aqui -->
+  </main>
+
+  <!-- Rodapé com Campo de Entrada -->
+  <footer>
+    <div class="input-wrapper">
+      <div id="error-alert" class="error-box"></div>
+      
+      <div class="input-container">
+        <textarea
+          id="user-input"
+          rows="1"
+          placeholder="Digite sua mensagem..."
+          autocomplete="off"
+        ></textarea>
+        <button id="send-btn" title="Enviar mensagem">
+          <svg viewBox="0 0 24 24">
+            <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Arquivo de Script Separado -->
+  <script src="script.js"></script>
+</body>
+</html>
+

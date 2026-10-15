@@ -1,0 +1,15 @@
+{
+  "name": "agente-base-js",
+  "version": "1.0.0",
+  "description": "Base de Agente IA em JavaScript com arquivos separados (HTML, CSS, JS)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["ai", "agent", "groq", "chat"],
+  "author": "",
+  "license": "MIT"
+}
+
